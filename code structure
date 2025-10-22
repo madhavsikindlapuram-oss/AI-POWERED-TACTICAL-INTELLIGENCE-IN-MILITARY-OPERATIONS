@@ -1,0 +1,34 @@
+AI-Tactical-Intelligence/structure
+│
+├── main.py                       # Your main tkinter + ML/DL code
+├── requirements.txt              # List of all Python libraries used
+├── background.jpg                # Background image for GUI
+├── model/                        # Folder where trained models will be saved
+│     ├── CNN_model.json
+│     ├── CNN_model_weights.h5
+│     ├── Basic_DL_model.json
+│     └── Basic_DL_model_weights.h5
+│
+├── dataset/                      # Folder to store sample dataset (optional)
+│     ├── Tank/
+│     ├── Assault helicopter/
+│     └── Transport helicopter/
+│
+├── testImages/                   # Folder for test images
+│     ├── test1.jpg
+│     └── test2.jpg
+│
+└── README.md                     # Description of your project (shown below)
+libraries used/tools
+tensorflow
+keras
+numpy
+pandas
+opencv-python
+scikit-learn
+matplotlib
+seaborn
+Pillow
+catboost
+joblib
+tk
